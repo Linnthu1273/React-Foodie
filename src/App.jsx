@@ -8,7 +8,7 @@ import Navbar from './Navbar';
 
 const App = () => {
   return (
-    <div className='container mx-auto'>
+    <div className='px-20 md:px-30 lg:px-40 lg:container lg:mx-auto  '>
       <Navbar />
       <Routes>
         <Route path='/' element={<Meals />} />
